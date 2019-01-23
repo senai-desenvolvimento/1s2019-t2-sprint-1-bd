@@ -1,0 +1,15 @@
+Uma clínica veterinária deseja cadastrar os pets que são atendidos na clínica. 
+A clínica contém um endereço;
+Os pets deverão ter nome, data de nascimento, tipo de pet;
+
+
+
+Os pets deverão ter raça;
+
+
+Os pets deverão ter donos;
+
+
+A clínica deseja cadastrar seus veterinários e todo atendimento de pet será feito por um vet;
+
+

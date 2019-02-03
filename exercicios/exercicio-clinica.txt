@@ -3,7 +3,6 @@ A clínica contém um endereço;
 Os pets deverão ter nome, data de nascimento, tipo de pet;
 
 
-
 Os pets deverão ter raça;
 
 

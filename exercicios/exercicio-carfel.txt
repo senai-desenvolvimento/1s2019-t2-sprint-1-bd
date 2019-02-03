@@ -1,0 +1,31 @@
+﻿1. Modelar o carfel que contém duas estruturas. Uma de usuário, com os campos: nome, email, senha e se ele é ou não administrador e a data de criação. 
+E outra de depoimentos com o próprio depoimento, o status do depoimento (Em espera, Aprovado e Rejeitado), o usuário que realizou e a data de criação.
+
+2. Deve-se criar o banco de dados e suas respectivas tabelas.
+-- criar um excel
+
+3. Deve-se inserir valores em todas as tabelas conforme a modelagem proposta.
+-- criar um excel
+
+4. usuários
+selecione todos os registros
+selecione somente email e senha
+selecione os usuários por ordem decrescente
+selecione somente os administradores
+
+5. depoimentos
+selecione todos os registros
+selecione somente os regitros em que o depoimento foi aprovado
+selecione os últimos 3 depoimentos inseridos
+selecione os depoimentos por ordem crescente
+somente aonde os depoimentos estão com status de aprovado OU rejeitado
+somente os aprovados
+
+6. usuários + depoimentos
+traga todos os registros
+selecione todos os usuários que possuem depoimentos
+selecione todos os usuários (obrigatoriamente) e traga seu depoimentos caso eles contenham algum registro
+
+7. delete todos os depoimentos em que o status seja igual a rejeitado
+
+8. atualize todos os depoimentos de 'em espera' para aprovado

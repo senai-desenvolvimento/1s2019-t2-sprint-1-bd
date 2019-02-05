@@ -1,0 +1,9 @@
+G:\Pessoal\Senai\Tecnico\2_Semestre\Projetos\Senai.HRoads.Solution\Senai.HRoads.Domain\bin\Debug\netcoreapp2.1\Senai.HRoads.Domain.deps.json
+G:\Pessoal\Senai\Tecnico\2_Semestre\Projetos\Senai.HRoads.Solution\Senai.HRoads.Domain\bin\Debug\netcoreapp2.1\Senai.HRoads.Domain.dll
+G:\Pessoal\Senai\Tecnico\2_Semestre\Projetos\Senai.HRoads.Solution\Senai.HRoads.Domain\bin\Debug\netcoreapp2.1\Senai.HRoads.Domain.pdb
+G:\Pessoal\Senai\Tecnico\2_Semestre\Projetos\Senai.HRoads.Solution\Senai.HRoads.Domain\obj\Debug\netcoreapp2.1\Senai.HRoads.Domain.csprojAssemblyReference.cache
+G:\Pessoal\Senai\Tecnico\2_Semestre\Projetos\Senai.HRoads.Solution\Senai.HRoads.Domain\obj\Debug\netcoreapp2.1\Senai.HRoads.Domain.csproj.CoreCompileInputs.cache
+G:\Pessoal\Senai\Tecnico\2_Semestre\Projetos\Senai.HRoads.Solution\Senai.HRoads.Domain\obj\Debug\netcoreapp2.1\Senai.HRoads.Domain.AssemblyInfoInputs.cache
+G:\Pessoal\Senai\Tecnico\2_Semestre\Projetos\Senai.HRoads.Solution\Senai.HRoads.Domain\obj\Debug\netcoreapp2.1\Senai.HRoads.Domain.AssemblyInfo.cs
+G:\Pessoal\Senai\Tecnico\2_Semestre\Projetos\Senai.HRoads.Solution\Senai.HRoads.Domain\obj\Debug\netcoreapp2.1\Senai.HRoads.Domain.dll
+G:\Pessoal\Senai\Tecnico\2_Semestre\Projetos\Senai.HRoads.Solution\Senai.HRoads.Domain\obj\Debug\netcoreapp2.1\Senai.HRoads.Domain.pdb

@@ -1,0 +1,250 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Senai.HRoads.Web.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Senai.HRoads.Web.Api.Controllers.ClassesController.Get">
+            <summary>
+            Retorna todas as classes cadastradas
+            </summary>
+            <returns>Objeto contedo valores das classes cadastradas</returns>
+            <response code="200">Retorna as Classes se Ok</response>
+            <response code="404">Retorna Erro caso algo de errado</response>
+        </member>
+        <member name="M:Senai.HRoads.Web.Api.Controllers.ClassesController.Get(System.Int32)">
+            <summary>
+            Busca uma classe pelo seu Id
+            </summary>
+            <param name="id">Valor da classe que deseja obter os Dados</param>
+            <returns>Retorna um objeto com a classe buscada</returns>
+            <response code="200">Retorna a Classe se Ok</response>
+            <response code="400">Retorna Not Found caso o id seja inválido</response>
+            <response code="404">Retorna Erro caso algo de errado</response>
+        </member>
+        <member name="M:Senai.HRoads.Web.Api.Controllers.ClassesController.Post(Senai.HRoads.Domain.Entidades.ClassesDominio)">
+            <summary>
+            Insere uma nova classe
+            </summary>
+            <param name="dados">Dados da Classe</param>
+            <returns>Retorna Ok caso a classe tenha sido criada</returns>
+            <response code="200">Retorna o texto se Ok</response>
+            <response code="404">Retorna Erro caso algo de errado</response>
+        </member>
+        <member name="M:Senai.HRoads.Web.Api.Controllers.ClassesController.Put(System.Int32,Senai.HRoads.Domain.Entidades.ClassesDominio)">
+            <summary>
+            Atualiza uma classe
+            </summary>
+            <param name="id">Id da classe</param>
+            <param name="dados">Dados da classe que será alterada</param>
+            <returns>Retorna mensagem informando que a classe foi atualizada</returns>
+            <response code="200">Retorna mensagem se Ok</response>
+            <response code="400">Retorna Not Found caso o id seja inválido</response>
+            <response code="404">Retorna Erro caso algo de errado</response>
+        </member>
+        <member name="M:Senai.HRoads.Web.Api.Controllers.ClassesController.Delete(System.Int32)">
+            <summary>
+            Exclui uma classe
+            </summary>
+            <param name="id">Id da classe</param>
+            <returns>Retorna mensagem informando que a classe foi excluída</returns>
+            <response code="200">Retorna mensagem se Ok</response>
+            <response code="400">Retorna Not Found caso o id seja inválido</response>
+            <response code="404">Retorna Erro caso algo de errado</response>
+        </member>
+        <member name="M:Senai.HRoads.Web.Api.Controllers.ClassesHabilidadesController.Get">
+            <summary>
+            Retorna todas as Classes Habilidades cadastradas
+            </summary>
+            <returns>Objeto contedo valores das Classes Habilidades cadastrados</returns>
+            <response code="200">Retorna as Classes Habilidades se Ok</response>
+            <response code="404">Retorna Erro caso algo de errado</response>
+        </member>
+        <member name="M:Senai.HRoads.Web.Api.Controllers.ClassesHabilidadesController.Get(System.Int32,System.Int32)">
+            <summary>
+            Busca uma Classe Habilidade pelo seu Id
+            </summary>
+            <param name="id_classe">Id da classe</param>
+            /// <param name="id_habilidade">Id da habilidade</param>
+            <returns>Retorna um objeto com o personagem buscada</returns>
+            <response code="200">Retorna o personagem se Ok</response>
+            <response code="400">Retorna Not Found caso o id seja inválido</response>
+            <response code="404">Retorna Erro caso algo de errado</response>
+        </member>
+        <member name="M:Senai.HRoads.Web.Api.Controllers.ClassesHabilidadesController.Post(Senai.HRoads.Domain.Entidades.ClassesHabilidadesDominio)">
+            <summary>
+            Insere uma novo personagem
+            </summary>
+            <param name="dados">Dados da Classe Habilidade</param>
+            <returns>Retorna Ok caso o personagem tenha sido criada</returns>
+            <response code="200">Retorna o texto se Ok</response>
+            <response code="404">Retorna Erro caso algo de errado</response>
+        </member>
+        <member name="M:Senai.HRoads.Web.Api.Controllers.ClassesHabilidadesController.Put(System.Int32,Senai.HRoads.Domain.Entidades.ClassesHabilidadesDominio)">
+            <summary>
+            Atualiza umo personagem
+            </summary>
+            <param name="id">Id da Classe Habilidade</param>
+            <param name="dados">Dados da Classe Habilidade que será alterada</param>
+            <returns>Retorna mensagem informando que o personagem foi atualizado</returns>
+            <response code="200">Retorna mensagem se Ok</response>
+            <response code="400">Retorna Not Found caso o id seja inválido</response>
+            <response code="404">Retorna Erro caso algo de errado</response>
+        </member>
+        <member name="M:Senai.HRoads.Web.Api.Controllers.ClassesHabilidadesController.Delete(System.Int32,System.Int32)">
+            <summary>
+            Exclui uma Classe Habilidade
+            </summary>
+            <param name="id_classe">Id da classe</param>
+            <param name="id_habilidade">Id da habilidade</param>
+            <returns>Retorna mensagem informando que o personagem foi excluída</returns>
+            <response code="200">Retorna mensagem se Ok</response>
+            <response code="400">Retorna Not Found caso o id seja inválido</response>
+            <response code="404">Retorna Erro caso algo de errado</response>
+        </member>
+        <member name="M:Senai.HRoads.Web.Api.Controllers.HabilidadesController.Get">
+            <summary>
+            Retorna todos as Habilidades Cadastradas
+            </summary>
+            <returns>Objeto contedo valores das Habilidades cadastradas</returns>
+            <response code="200">Retorna as Habilidades se Ok</response>
+            <response code="404">Retorna Erro caso algo de errado</response>
+        </member>
+        <member name="M:Senai.HRoads.Web.Api.Controllers.HabilidadesController.Get(System.Int32)">
+            <summary>
+            Busca uma habilidade pelo seu Id
+            </summary>
+            <param name="id">Valor da Habilidade que deseja obter os Dados</param>
+            <returns>Retorna um objeto com a classe buscada</returns>
+            <response code="200">Retorna a Habilidade se Ok</response>
+            <response code="400">Retorna Not Found caso o id seja inválido</response>
+            <response code="404">Retorna Erro caso algo de errado</response>
+        </member>
+        <member name="M:Senai.HRoads.Web.Api.Controllers.HabilidadesController.Post(Senai.HRoads.Domain.Entidades.HabilidadesDominio)">
+            <summary>
+            Insere um nova Habilidade
+            </summary>
+            <param name="dados">Dados da Habilidade</param>
+            <returns>Retorna Ok caso a Habilidade tenha sido criado</returns>
+            <response code="200">Retorna o texto se Ok</response>
+            <response code="404">Retorna Erro caso algo de errado</response>
+        </member>
+        <member name="M:Senai.HRoads.Web.Api.Controllers.HabilidadesController.Put(System.Int32,Senai.HRoads.Domain.Entidades.HabilidadesDominio)">
+            <summary>
+            Atualiza uma habilidade
+            </summary>
+            <param name="id">Id da Habilidade</param>
+            <param name="dados">Dados da Habilidade que será alterada</param>
+            <returns>Retorna mensagem informando que a Habilidade foi atualizada</returns>
+            <response code="200">Retorna mensagem se Ok</response>
+            <response code="400">Retorna Not Found caso o id seja inválido</response>
+            <response code="404">Retorna Erro caso algo de errado</response>
+        </member>
+        <member name="M:Senai.HRoads.Web.Api.Controllers.HabilidadesController.Delete(System.Int32)">
+            <summary>
+            Exclui um habilidade
+            </summary>
+            <param name="id">Id da Habilidade</param>
+            <returns>Retorna mensagem informando que a Habilidade foi excluída</returns>
+            <response code="200">Retorna mensagem se Ok</response>
+            <response code="400">Retorna Not Found caso o id seja inválido</response>
+            <response code="404">Retorna Erro caso algo de errado</response>
+        </member>
+        <member name="M:Senai.HRoads.Web.Api.Controllers.PersonagensController.Get">
+            <summary>
+            Retorna todos os Personagens cadastradas
+            </summary>
+            <returns>Objeto contedo valores dos Personagens cadastrados</returns>
+            <response code="200">Retorna os Personagens se Ok</response>
+            <response code="404">Retorna Erro caso algo de errado</response>
+        </member>
+        <member name="M:Senai.HRoads.Web.Api.Controllers.PersonagensController.Get(System.Int32)">
+            <summary>
+            Busca um personagem pelo seu Id
+            </summary>
+            <param name="id">Valor do personagem que deseja obter os Dados</param>
+            <returns>Retorna um objeto com o personagem buscada</returns>
+            <response code="200">Retorna o personagem se Ok</response>
+            <response code="400">Retorna Not Found caso o id seja inválido</response>
+            <response code="404">Retorna Erro caso algo de errado</response>
+        </member>
+        <member name="M:Senai.HRoads.Web.Api.Controllers.PersonagensController.Post(Senai.HRoads.Domain.Entidades.PersonagensDominio)">
+            <summary>
+            Insere uma novo personagem
+            </summary>
+            <param name="dados">Dados do personagem</param>
+            <returns>Retorna Ok caso o personagem tenha sido criada</returns>
+            <response code="200">Retorna o texto se Ok</response>
+            <response code="404">Retorna Erro caso algo de errado</response>
+        </member>
+        <member name="M:Senai.HRoads.Web.Api.Controllers.PersonagensController.Put(System.Int32,Senai.HRoads.Domain.Entidades.PersonagensDominio)">
+            <summary>
+            Atualiza umo personagem
+            </summary>
+            <param name="id">Id do personagem</param>
+            <param name="dados">Dados do personagem que será alterada</param>
+            <returns>Retorna mensagem informando que o personagem foi atualizado</returns>
+            <response code="200">Retorna mensagem se Ok</response>
+            <response code="400">Retorna Not Found caso o id seja inválido</response>
+            <response code="404">Retorna Erro caso algo de errado</response>
+        </member>
+        <member name="M:Senai.HRoads.Web.Api.Controllers.PersonagensController.Delete(System.Int32)">
+            <summary>
+            Exclui um personagem
+            </summary>
+            <param name="id">Id do personagem</param>
+            <returns>Retorna mensagem informando que o personagem foi excluída</returns>
+            <response code="200">Retorna mensagem se Ok</response>
+            <response code="400">Retorna Not Found caso o id seja inválido</response>
+            <response code="404">Retorna Erro caso algo de errado</response>
+        </member>
+        <member name="M:Senai.HRoads.Web.Api.Controllers.TiposHabilidadesController.Get">
+            <summary>
+            Retorna todos os Tipos de Habilidades Cadastradas
+            </summary>
+            <returns>Objeto contedo valores dos Tipos de Habilidades cadastradas</returns>
+            <response code="200">Retorna os Tipos de Habilidades se Ok</response>
+            <response code="404">Retorna Erro caso algo de errado</response>
+        </member>
+        <member name="M:Senai.HRoads.Web.Api.Controllers.TiposHabilidadesController.Get(System.Int32)">
+            <summary>
+            Busca um tipo de habilidade pelo seu Id
+            </summary>
+            <param name="id">Valor do tipo de habilidade que deseja obter os Dados</param>
+            <returns>Retorna um objeto com a classe buscada</returns>
+            <response code="200">Retorna o Tipo de Habilidade se Ok</response>
+            <response code="400">Retorna Not Found caso o id seja inválido</response>
+            <response code="404">Retorna Erro caso algo de errado</response>
+        </member>
+        <member name="M:Senai.HRoads.Web.Api.Controllers.TiposHabilidadesController.Post(Senai.HRoads.Domain.Entidades.TiposHabilidadesDominio)">
+            <summary>
+            Insere um novo tipo de habilidade
+            </summary>
+            <param name="dados">Dados do Tipo de Habilidade</param>
+            <returns>Retorna Ok caso o tipo de habilidade tenha sido criado</returns>
+            <response code="200">Retorna o texto se Ok</response>
+            <response code="404">Retorna Erro caso algo de errado</response>
+        </member>
+        <member name="M:Senai.HRoads.Web.Api.Controllers.TiposHabilidadesController.Put(System.Int32,Senai.HRoads.Domain.Entidades.TiposHabilidadesDominio)">
+            <summary>
+            Atualiza um tipo de habilidade
+            </summary>
+            <param name="id">Id do tipo de habilidade</param>
+            <param name="dados">Dados do tipo de habilidade que será alterada</param>
+            <returns>Retorna mensagem informando que o tipo de habilidade foi atualizada</returns>
+            <response code="200">Retorna mensagem se Ok</response>
+            <response code="400">Retorna Not Found caso o id seja inválido</response>
+            <response code="404">Retorna Erro caso algo de errado</response>
+        </member>
+        <member name="M:Senai.HRoads.Web.Api.Controllers.TiposHabilidadesController.Delete(System.Int32)">
+            <summary>
+            Exclui um Tipo de habilidade
+            </summary>
+            <param name="id">Id do tipo de habilidade</param>
+            <returns>Retorna mensagem informando que o tipo de habilidade foi excluída</returns>
+            <response code="200">Retorna mensagem se Ok</response>
+            <response code="400">Retorna Not Found caso o id seja inválido</response>
+            <response code="404">Retorna Erro caso algo de errado</response>
+        </member>
+    </members>
+</doc>

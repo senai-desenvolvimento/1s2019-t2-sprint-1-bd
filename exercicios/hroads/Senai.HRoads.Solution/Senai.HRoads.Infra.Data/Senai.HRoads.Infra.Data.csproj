@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.50.5" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.7.0-preview.19073.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Senai.HRoads.Domain\Senai.HRoads.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

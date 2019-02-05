@@ -1,0 +1,741 @@
+{
+	"info": {
+		"_postman_id": "03f1a79a-818c-4174-9b9f-8c072c2582a2",
+		"name": "HRoads",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Classes",
+			"item": [
+				{
+					"name": "Lista Todas as Classes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:54498/api/classes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54498",
+							"path": [
+								"api",
+								"classes"
+							]
+						},
+						"description": "Exclui uma classe"
+					},
+					"response": []
+				},
+				{
+					"name": "Busca classe por Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:54498/api/classes/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54498",
+							"path": [
+								"api",
+								"classes",
+								"7"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Inserir",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"Nome\" : \"Teste 3\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:54498/api/classes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54498",
+							"path": [
+								"api",
+								"classes"
+							]
+						},
+						"description": "Insere uma nova classe"
+					},
+					"response": []
+				},
+				{
+					"name": "Atualiza",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"Id\" : 10,\n\t\"Nome\" : \"Teste 1\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:54498/api/classes/10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54498",
+							"path": [
+								"api",
+								"classes",
+								"10"
+							]
+						},
+						"description": "Atualiza uma Classe"
+					},
+					"response": []
+				},
+				{
+					"name": "Exclui Classe",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:54498/api/classes/10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54498",
+							"path": [
+								"api",
+								"classes",
+								"10"
+							]
+						},
+						"description": "Lista todas as classes"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Tipos de Habilidades",
+			"item": [
+				{
+					"name": "Lista Todas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:54498/api/tiposhabilidades",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54498",
+							"path": [
+								"api",
+								"tiposhabilidades"
+							]
+						},
+						"description": "Exclui uma classe"
+					},
+					"response": []
+				},
+				{
+					"name": "Busca por Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:54498/api/tiposhabilidades/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54498",
+							"path": [
+								"api",
+								"tiposhabilidades",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Inserir",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"Nome\" : \"Teste\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:54498/api/tiposhabilidades",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54498",
+							"path": [
+								"api",
+								"tiposhabilidades"
+							]
+						},
+						"description": "Insere uma nova classe"
+					},
+					"response": []
+				},
+				{
+					"name": "Atualiza",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"Id\" : 5,\n\t\"Nome\" : \"Teste 1\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:54498/api/tiposhabilidades/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54498",
+							"path": [
+								"api",
+								"tiposhabilidades",
+								"5"
+							]
+						},
+						"description": "Atualiza uma Classe"
+					},
+					"response": []
+				},
+				{
+					"name": "Exclui",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:54498/api/tiposhabilidades/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54498",
+							"path": [
+								"api",
+								"tiposhabilidades",
+								"5"
+							]
+						},
+						"description": "Lista todas as classes"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Habilidades",
+			"item": [
+				{
+					"name": "Lista Todas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:54498/api/habilidades",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54498",
+							"path": [
+								"api",
+								"habilidades"
+							]
+						},
+						"description": "Exclui uma classe"
+					},
+					"response": []
+				},
+				{
+					"name": "Busca por Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:54498/api/habilidades/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54498",
+							"path": [
+								"api",
+								"habilidades",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Inserir",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"Nome\" : \"Teste\",\n\t\"Id_Tipo_Habilidade\" : 1\n}"
+						},
+						"url": {
+							"raw": "http://localhost:54498/api/habilidades",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54498",
+							"path": [
+								"api",
+								"habilidades"
+							]
+						},
+						"description": "Insere uma nova classe"
+					},
+					"response": []
+				},
+				{
+					"name": "Atualiza",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"id\" : 5,\n\t\"Nome\" : \"Teste 1\",\n\t\"id_tipo_habilidade\" : 2\n}"
+						},
+						"url": {
+							"raw": "http://localhost:54498/api/habilidades/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54498",
+							"path": [
+								"api",
+								"habilidades",
+								"5"
+							]
+						},
+						"description": "Atualiza uma Classe"
+					},
+					"response": []
+				},
+				{
+					"name": "Exclui",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:54498/api/habilidades/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54498",
+							"path": [
+								"api",
+								"habilidades",
+								"5"
+							]
+						},
+						"description": "Lista todas as classes"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Personagens",
+			"item": [
+				{
+					"name": "Lista Todas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:54498/api/personagens",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54498",
+							"path": [
+								"api",
+								"personagens"
+							]
+						},
+						"description": "Exclui uma classe"
+					},
+					"response": []
+				},
+				{
+					"name": "Busca por Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:54498/api/personagens/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54498",
+							"path": [
+								"api",
+								"personagens",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Inserir",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Nome\": \"Hel10\",\n    \"Cap_Max_Vida\": 100,\n    \"Cap_Max_Mana\": 100,\n    \"DataCriacao\": \"2016-03-17T00:00:00\",\n    \"DataAtualizacao\": \"2019-02-03T15:40:44.487\",\n    \"Id_Classe\": 2\n}"
+						},
+						"url": {
+							"raw": "http://localhost:54498/api/personagens",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54498",
+							"path": [
+								"api",
+								"personagens"
+							]
+						},
+						"description": "Insere uma nova classe"
+					},
+					"response": []
+				},
+				{
+					"name": "Atualiza",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n        \"Id\": 4,\n        \"Nome\": \"Hel10\",\n        \"Cap_Max_Vida\": 95,\n        \"Cap_Max_Mana\": 100,\n        \"DataCriacao\": \"2016-03-17T00:00:00\",\n        \"DataAtualizacao\": \"2019-02-03T15:40:44.487\",\n        \"Id_Classe\": 3\n    }"
+						},
+						"url": {
+							"raw": "http://localhost:54498/api/personagens/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54498",
+							"path": [
+								"api",
+								"personagens",
+								"4"
+							]
+						},
+						"description": "Atualiza uma Classe"
+					},
+					"response": []
+				},
+				{
+					"name": "Exclui",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:54498/api/personagens/4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54498",
+							"path": [
+								"api",
+								"personagens",
+								"4"
+							]
+						},
+						"description": "Lista todas as classes"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Classes Habilidades",
+			"item": [
+				{
+					"name": "Lista Todas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:54498/api/classeshabilidades",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54498",
+							"path": [
+								"api",
+								"classeshabilidades"
+							]
+						},
+						"description": "Exclui uma classe"
+					},
+					"response": []
+				},
+				{
+					"name": "Busca por Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:54498/api/classeshabilidades/3/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54498",
+							"path": [
+								"api",
+								"classeshabilidades",
+								"3",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Inserir",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Id_Classe\": 3,\n    \"Id_Habilidade\": 2\n}"
+						},
+						"url": {
+							"raw": "http://localhost:54498/api/classeshabilidades",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54498",
+							"path": [
+								"api",
+								"classeshabilidades"
+							]
+						},
+						"description": "Insere uma nova classe"
+					},
+					"response": []
+				},
+				{
+					"name": "Atualiza",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"Id_Classe\": 5,\n    \"Id_Habilidade\": 1\n}"
+						},
+						"url": {
+							"raw": "http://localhost:54498/api/habilidades/3/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54498",
+							"path": [
+								"api",
+								"habilidades",
+								"3",
+								"2"
+							]
+						},
+						"description": "Atualiza uma Classe"
+					},
+					"response": []
+				},
+				{
+					"name": "Exclui",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:54498/api/habilidades/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "54498",
+							"path": [
+								"api",
+								"habilidades",
+								"5"
+							]
+						},
+						"description": "Lista todas as classes"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
